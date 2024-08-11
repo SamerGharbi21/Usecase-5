@@ -9,7 +9,7 @@ st.set_page_config(
 
 st.write("<h1 style='text-align: right;'>🤔تدور على وظيفه ؟<h1><br>", unsafe_allow_html=True)
 
-gif_path = "C:\\Users\\Public\\Desktop\\Usecase-5\\image.gif"
+gif_path = "./image.gif"
 
 # Check if the file exists
 if os.path.exists(gif_path):
