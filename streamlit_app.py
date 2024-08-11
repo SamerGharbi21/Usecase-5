@@ -6,17 +6,16 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.write("<h1 style='text-align: right; '>🤔تدور على وظيفه ؟ <h1><br>", unsafe_allow_html=True)
+st.write("<h1 style='text-align: right;'>🤔تدور على وظيفه ؟ <h1><br>", unsafe_allow_html=True)
 
-st.write("![Your Awsome GIF](C://Users//Public//Desktop//Usecase-5//image.gif)")
+# Load the GIF and encode it to base64
+gif_path = "C://Users//Public//Desktop//Usecase-5//image.gif"
 
-"""### gif from local file"""
-file_ = open("C://Users//Public//Desktop//Usecase-5//image.gif", "rb")
-contents = file_.read()
-data_url = base64.b64encode(contents).decode("utf-8")
-file_.close()
+with open(gif_path, "rb") as gif_file:
+    gif_bytes = gif_file.read()
+    encoded_gif = base64.b64encode(gif_bytes).decode("utf-8")
 
-st.markdown(
-    f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
-    unsafe_allow_html=True,
-)
+# Embed the GIF in the app
+gif_html = f'<img src="data:image/gif;base64,{encoded_gif}" alt="Your Awesome GIF">'
+
+st.write(gif_html, unsafe_allow_html=True)
