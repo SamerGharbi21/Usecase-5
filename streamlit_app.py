@@ -24,11 +24,7 @@ st.write(gif_html, unsafe_allow_html=True)
 st.write("<p style='text-align: right;'>انا طالب مثل اي طالب الحمدلله بشهاده جامعية و اطمح بوظيفه براتب عالي , طبعا سمعت كلام من ناس كثير ان اغلب الوظايف في الرياض و لازم اخرج من البلد عشان الاقي الرواتب العاليه و السلم الوظيفي الممتاز فا قررت ابحث عن هاذي المعلومات<p>", unsafe_allow_html=True)
 st.write("<p style='text-align: right;'>طبعا انا من سكان المدينة المنورة فا قررت ابحث عن مدى توفر الوظايف بمدينتي <p>", unsafe_allow_html=True)
 
-image_html = '''
-<div style="text-align: center;">
-    <img src="image1.png" width="50">
-</div>
-'''
+st.image("image1.png" , width=1000)
 
 st.write("<p style='text-align: right;'><p>", unsafe_allow_html=True)
 st.write("<p style='text-align: right;'><p>", unsafe_allow_html=True)
