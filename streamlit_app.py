@@ -6,10 +6,10 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.write("<h1 style='text-align: right;'>🤔تدور على وظيفه ؟ <h1><br>", unsafe_allow_html=True)
+st.write("<h1 style='text-align: right;'>🤔تدور على وظيفه ؟<h1><br>", unsafe_allow_html=True)
 
 # Load the GIF and encode it to base64
-gif_path = "rC:\Users\Public\Desktop\Usecase-5\image.gif"
+gif_path = "C:\\Users\\Public\\Desktop\\Usecase-5\\image.gif"
 
 with open(gif_path, "rb") as gif_file:
     gif_bytes = gif_file.read()
