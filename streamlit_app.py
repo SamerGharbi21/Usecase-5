@@ -26,7 +26,7 @@ st.write("<p style='text-align: right;'>طبعا انا من سكان المدي
 
 image_html = '''
 <div style="text-align: center;">
-    <img src="image1.png" width="1000">
+    <img src="image1.png" width="50">
 </div>
 '''
 
