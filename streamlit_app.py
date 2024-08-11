@@ -21,4 +21,4 @@ gif_html = f'''
 st.write("<h1 style='text-align: right;'>🤔تدور على وظيفه ؟<h1>", unsafe_allow_html=True)
 st.write(gif_html, unsafe_allow_html=True)
 
-st.write("<p style='text-align: right;'>انا طالب مثل اي طالب الحمدلله يشهاده جامهية وو اطح بوظيفه براتب عالي.<p>", unsafe_allow_html=True)
+st.write("<p style='text-align: right;'>انا طالب مثل اي طالب الحمدلله يشهاده جامهية وو اطح بوظيفه براتب عالي<p>", unsafe_allow_html=True)
