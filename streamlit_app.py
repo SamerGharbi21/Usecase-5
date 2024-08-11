@@ -1,3 +1,6 @@
 import streamlit as st
 
-st.write('Hello world!')
+st.set_page_config(
+    page_title="Hello",
+    page_icon="👋",
+)
