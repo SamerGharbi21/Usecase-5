@@ -27,7 +27,10 @@ st.write("<p style='text-align: right;'>طبعا انا من سكان المدي
 st.image("image1.png" , width=1000)
 
 st.write("<p style='text-align: right;'>يا الله المدينة فيها اقل من 100 وظيفه؟ و الرايض فيها اكثر من 500 ؟ يعني كلام الناس صح ؟ لازم اخرج من المدينة و اسيب اهلي ؟ <p>", unsafe_allow_html=True)
-st.write("<p style='text-align: right;'> الحمدلله على كل حال طيب في الرياض العالم منفتحه و حريم و رجال يبغو وظايف هناك هذا اذا ما كان الحريم يتوظفو اكثر ايش الحل؟ خليني اشوف اذا في عندهم <p>", unsafe_allow_html=True)
+st.write("<p style='text-align: right;'> الحمدلله على كل حال طيب في الرياض العالم منفتحه و حريم و رجال يبغو وظايف هناك هذا اذا ما كان الحريم يتوظفو اكثر ايش الحل؟ خليني اشوف اذا في عندهم افضلية للنساء على الرجال ؟ خليني اشيك<p>", unsafe_allow_html=True)
+
+st.image("image2.png" , width=1000)
+
 st.write("<p style='text-align: right;'><p>", unsafe_allow_html=True)
 st.write("<p style='text-align: right;'><p>", unsafe_allow_html=True)
 st.write("<p style='text-align: right;'><p>", unsafe_allow_html=True)
