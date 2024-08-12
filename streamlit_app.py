@@ -31,6 +31,9 @@ st.write("<p style='text-align: right;'> الحمدلله على كل حال ط�
 
 st.image("image2.png" , width=1000)
 
-st.write("<p style='text-align: right;'><p>", unsafe_allow_html=True)
-st.write("<p style='text-align: right;'><p>", unsafe_allow_html=True)
+st.write("<p style='text-align: right;'>الحمدلله كلنا زي بعض يلا في مشكله انحلت و عدت على خير <p>", unsafe_allow_html=True)
+st.write("<p style='text-align: right;'>يصير باقي اكبر مشكله تواجهني كخريج حديث و تواجه كل واحد حديث تخرج , مشكلة الخبره يا الله يا رب يسرها من عندك , طيب يصير خليني اشيك على اغلب الوظايف الي في الرياض هل تحتاج خبره ولا لا بسم الله <p>", unsafe_allow_html=True)
+
+st.image("image3.png" , width=1000)
+
 st.write("<p style='text-align: right;'><p>", unsafe_allow_html=True)
